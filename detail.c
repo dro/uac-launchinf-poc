@@ -2,11 +2,6 @@
 
 #include <intrin.h>
 
-BOOLEAN detail_null_message_pump( )
-{
-
-}
-
 BOOLEAN detail_spoof_peb( struct detail_spoof_data *data, const wchar_t *path, const wchar_t *file )
 {
 	const PEB *peb     = NtCurrentTeb( )->ProcessEnvironmentBlock;
