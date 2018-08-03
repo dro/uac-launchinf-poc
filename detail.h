@@ -15,10 +15,6 @@ struct detail_spoof_data {
 	LDR_DATA_TABLE_ENTRY *m_backup_entry;
 };
 
-struct detail_pump_data {
-	int a;
-};
-
 BOOLEAN detail_spoof_peb( struct detail_spoof_data *data, const wchar_t *path, const wchar_t *file );
 void    detail_restore_peb( struct detail_spoof_data *data );
 
